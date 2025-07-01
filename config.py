@@ -31,7 +31,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 # -----------------A-------------------------------
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "LUCIFEREXTRACTORBOT")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", 7764674199))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7764674199"))
 # ------------------X------------------------------
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7764674199").split()))

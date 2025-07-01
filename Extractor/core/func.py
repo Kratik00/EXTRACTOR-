@@ -24,7 +24,7 @@ async def gen_link(app,chat_id):
    return link
 
 async def subscribe(app, message):
-   update_channel = CHANNEL_ID
+   update_channel = CHANNEL_ID2
    url = await gen_link(app, update_channel)
    if update_channel:
       try:

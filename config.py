@@ -40,5 +40,5 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002610898117"))
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", -1002844381920))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002844381920"))
 

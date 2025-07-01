@@ -1,4 +1,4 @@
-from config import CHANNEL_ID, CHANNEL_ID2, SUDO_USERS 
+from config import CHANNEL_ID, SUDO_USERS 
 from Extractor.core import script
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import *
@@ -24,20 +24,24 @@ async def gen_link(app,chat_id):
    return link
 
 async def subscribe(app, message):
-   update_channel = CHANNEL_ID2
-   url = await gen_link(app, update_channel)
-   if update_channel:
-      try:
-         user = await app.get_chat_member(update_channel, message.from_user.id)
-         if user.status == "kicked":
-            await message.reply_text("Sorry Sir, You are Banned. Contact My Support Group @lp_lucifer")
+    try:
+        user = await app.get_chat_member(update_channel, message.from_user.id)
+        if user.status == "kicked":
+            await message.reply_text("Sorry Sir, You are Banned.")
             return 1
-      except UserNotParticipant:
-         await message.reply_photo(photo="https://graph.org/file/2fbd9fda0f646b1422f05-218a2421d48d601d10.jpg",caption=script.FORCE_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ 🤖", url=f"{url}")]]))
-         return 1
-      except Exception:
-         await message.reply_text("Something Went Wrong. Contact My Support Group")
-         return 1
+        return 0
+     except UserNotParticipant:
+        await message.reply_photo(
+            photo="https://graph.org/file/2fbd9fda0f646b1422f05-218a2421d48d601d10.jpg",
+            caption=script.FORCE_MSG.format(message.from_user.mention),
+            reply_markup=InlineKeyboardMarkup([[
+                InlineKeyboardButton("🔗 Join Channel", url="https://t.me/URS_LUCIFER")
+            ]])
+        )
+        return 1
+    except Exception as e:
+        await message.reply_text(f"⚠️ Something Went Wrong: {e}")
+        return 1
 
 
 

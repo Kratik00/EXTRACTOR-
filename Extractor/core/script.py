@@ -1,10 +1,10 @@
 
 IMG = [
-"https://graph.org/file/dbd48ba7093582ab20063.jpg",
-"https://graph.org/file/69356215e2506436f381b.jpg",
-"https://graph.org/file/7785e3232769e4bc67f85.jpg",
-"https://graph.org/file/f8596ff5009dfb6bd9eda.jpg",
-"https://graph.org/file/6e70a2c0d794e3ff2a577.jpg",
+"https://graph.org/file/d81baf8451cf1627ae3f6-c819d31887f32db07d.jpg",
+"https://graph.org/file/b29c2581eab59309d72cf-86cea750f2e54d6798.jpg",
+"https://graph.org/file/37eae141246f30803c113-f2a0774fc851ca0562.jpg",
+"https://graph.org/file/4afaa8ad4b2f757bdf9d7-47d5f883ea944a498d.jpg",
+"https://graph.org/file/153308ce2d6f968e25965-d310556f3d191bcc62.jpg",
 ]
 
 
@@ -97,7 +97,7 @@ OTHER_TXT = """
 PAYMENT_TXT = """<b>
 ⚜️ ᴘᴀʏ ᴀᴍᴍᴏᴜɴᴛ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ᴘʟᴀɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ !
 
-📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/e671031c27c824fd5b0ac.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
+📸 ǫʀ ᴄᴏᴅᴇ - <a href='https://graph.org/file/2fbd9fda0f646b1422f05-218a2421d48d601d10.jpg'>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ</a>
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 </b>"""

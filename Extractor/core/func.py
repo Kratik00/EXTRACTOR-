@@ -1,4 +1,4 @@
-from config import CHANNEL_ID, SUDO_USERS 
+from config import CHANNEL_ID, CHANNEL_ID2, SUDO_USERS 
 from Extractor.core import script
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import *

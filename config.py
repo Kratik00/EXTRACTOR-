@@ -23,22 +23,22 @@ PREMIUM_LOGS = int(getenv("PREMIUM_LOGS", "-1002034072106"))
 import os
 from os import getenv
 # ---------------R---------------------------------
-API_ID = int(os.environ.get("API_ID"))
+API_ID = int(os.environ.get("API_ID", 25318125))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH")
+API_HASH = os.environ.get("API_HASH", "b29fb6a928e8b8a3308f8c2d3ba9cfb0")
 # ----------------D--------------------------------
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 # -----------------A-------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "LUCIFEREXTRACTORBOT")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+OWNER_ID = int(os.environ.get("OWNER_ID", 7764674199))
 # ------------------X------------------------------
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7764674199").split()))
 # ------------------------------------------------
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002838165560"))
 # ------------------------------------------------
-MONGO_URL = os.environ.get("MONGO_URL")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://lucifer:QGPQCl6ZFf6wHiZ7@cluster0.zmcca.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", -1002844381920))
 

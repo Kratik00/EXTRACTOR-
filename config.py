@@ -42,4 +42,4 @@ MONGO_URL = os.environ.get("MONGO_URL")
 # -----------------------------------------------
 PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002844381920"))
 # -----------------------------♡--------------------------------
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002746117621"))
+#CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002746117621"))

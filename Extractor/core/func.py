@@ -25,12 +25,12 @@ async def gen_link(app,chat_id):
 
 async def subscribe(app, message):
     try:
-        user = await app.get_chat_member(update_channel, message.from_user.id)
+        user = await app.get_chat_member(urs_lucifer, message.from_user.id)
         if user.status == "kicked":
             await message.reply_text("Sorry Sir, You are Banned.")
             return 1
         return 0
-     except UserNotParticipant:
+    except UserNotParticipant:
         await message.reply_photo(
             photo="https://graph.org/file/2fbd9fda0f646b1422f05-218a2421d48d601d10.jpg",
             caption=script.FORCE_MSG.format(message.from_user.mention),
